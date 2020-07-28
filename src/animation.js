@@ -23,39 +23,39 @@ const Animation = () => {
   const mushroom1 = useRef(null);
   const mushroom2 = useRef(null);
 
-  const pepperoniAnimation = () => {
-    const pepperoni = [
-      pepperoni1.current,
-      pepperoni2.current,
-      pepperoni3.current
-    ];
+  // const pepperoniAnimation = () => {
+  //   const pepperoni = [
+  //     pepperoni1.current,
+  //     pepperoni2.current,
+  //     pepperoni3.current
+  //   ];
 
-    TweenMax.to(pepperoni, 1, {
-      y: 0,
-      ease: "Bounce.easeOut",
-      stagger: 0.1
-    });
-  };
+  //   TweenMax.to(pepperoni, 1, {
+  //     y: 0,
+  //     ease: "Bounce.easeOut",
+  //     stagger: 0.1
+  //   });
+  // };
 
-  const mushroomAnimation = () => {
-    const mushroom = [mushroom1.current, mushroom2.current];
+  // const mushroomAnimation = () => {
+  //   const mushroom = [mushroom1.current, mushroom2.current];
 
-    TweenMax.to(mushroom, 1, {
-      y: 0,
-      ease: "Bounce.easeOut",
-      stagger: 0.1
-    });
-  };
+  //   TweenMax.to(mushroom, 1, {
+  //     y: 0,
+  //     ease: "Bounce.easeOut",
+  //     stagger: 0.1
+  //   });
+  // };
 
-  const spinachAnimation = () => {
-    const spinach = [
-      spinach1.current,
-      spinach2.current,
-      spinach3.current,
-      spinach4.current,
-      spinach5.current,
-      spinach6.current
-    ];
+  // const spinachAnimation = () => {
+  //   const spinach = [
+  //     spinach1.current,
+  //     spinach2.current,
+  //     spinach3.current,
+  //     spinach4.current,
+  //     spinach5.current,
+  //     spinach6.current
+  //   ];
 
     TweenMax.to(spinach, 1, {
       y: 0,
