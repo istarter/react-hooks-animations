@@ -1,4 +1,4 @@
-# react-hooks-animations
+## react-hooks-animations
 tiny-react-hooks-animation-finished
 
 ### Demo Link
